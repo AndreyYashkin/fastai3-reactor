@@ -21,3 +21,7 @@ This will allow to create callbacks with events that are specific for the task y
 `GANLearnerB` is an example of alternative way to do GAN education based on an optimizer developed to solve minimax problems.
 
 Both of these learners share events from `AbstractGANLearner`. With these events you can do some type GAN augmentation and many other things.
+
+## Benefits
+- `GANLearner` will support (class) conditional generation without need to any hacks.
+- `GANLearner` is now possible and easy to hack with optimized callbacks
