@@ -24,4 +24,5 @@ Both of these learners share events from `AbstractGANLearner`. With these events
 
 ## Benefits
 - `GANLearner` will support (class) conditional generation without need to any hacks.
-- `GANLearner` is now possible and easy to hack with optimized callbacks
+- `GANLearner` is now possible and easy to hack with optimized callbacks.
+- The `AbstractLearner` based approach will allow to expand fastai on more ML domains like RL.
